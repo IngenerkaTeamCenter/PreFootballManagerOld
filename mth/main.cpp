@@ -101,6 +101,99 @@ txBitBlt(txDC(), 0, 0, 800, 500, background_FromTXLibHelp, 0, 0);
               txDrawText(310, 100, 610, 50, "BOR.DORTMUND");
         txDeleteDC (background_FromTXLibHelp);
 
+elce (strcmp(str, "3") == 0) {
+
+    background_FromTXLibHelp = txLoadImage ("1.bmp");
+           txBitBlt(txDC(), 0, 0, 800, 500, background_FromTXLibHelp, 0, 0);
+
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(450, 650 , 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(700, 625 , 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(700, 675 , 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(700, 685 , 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(700, 615 , 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(650, 470, 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(650, 730, 420);
+              txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(550, 520, 420);
+            txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(550, 780, 420);
+           txSelectFont ("Comic Sans MS", 32);
+           txDrawText(550, 780, 420, 50, "TTT");
+            txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(750, 550, 420);
+            txSetFillColour(TX_RED);
+          txSetColour(TX_RED);
+           txCircle(750, 750, 420);
+            txSetFillColour(TX_WHITE);
+          txSetColour(TX_WHITE);
+           txSelectFont ("Comic Sans MS", 32);
+              txDrawText(310, 100, 610, 50, "BAYERN MUNCHEN 2");
+        txDeleteDC (background_FromTXLibHelp);
+    }
+
+else if (strcmp(str, "4") == 0) {
+background_FromTXLibHelp = txLoadImage ("1.bmp");
+txBitBlt(txDC(), 0, 0, 800, 500, background_FromTXLibHelp, 0, 0);
+
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(450, 650 , 420);
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(700, 625 , 420);
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(700, 675 , 420);
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(600, 685 , 420);
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(600, 615 , 420);
+           txSelectFont ("Comic Sans MS", 32);
+              txDrawText(600, 615, 420, 50, "DDD");
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(650, 470, 420);
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(650, 730, 420);
+              txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(550, 520, 420);
+            txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(550, 780, 420);
+            txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(750, 550, 420);
+            txSetFillColour(TX_YELLOW);
+          txSetColour(TX_YELLOW);
+           txCircle(750, 750, 420);
+            txSetFillColour(TX_WHITE);
+          txSetColour(TX_WHITE);
+           txSelectFont ("Comic Sans MS", 32);
+              txDrawText(310, 100, 610, 50, "BOR.DORTMUND 2");
+        txDeleteDC (background_FromTXLibHelp);
+
+
 
     } else if (strcmp(str, "2") == 0) {
 
